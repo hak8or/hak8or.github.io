@@ -8,7 +8,7 @@ A chromebook showed up in the mail recently just after I noticed it may not be s
 Anyways, after a few days it seemed my chromebook is running out of power a bit sooner than I thought, so I checked out [powertop](https://01.org/powertop/overview) and viola! 
 
 ```bash
-PowerTOP 2.8      Overview   Idle stats   Frequency stats   Device stats   Tunables                                    
+PowerTOP 2.8      Overview   Idle stats   Frequency stats   Device stats   Tunables
 The battery reports a discharge rate of 7.77 W
 The estimated remaining time is 4 hours, 21 minutes
 
@@ -85,11 +85,11 @@ Well that's a bummer, so it seems that the GPG check is failing for one of our f
 
 ```bash
 hak8or@hak8or ~> makepkg --help
-makepkg (pacman) 5.0.1                                                                             
-                                                                                                   
-Make packages compatible for use with pacman                                                       
-                                                                                                   
-Usage: /usr/bin/makepkg [options]                                                                  
+makepkg (pacman) 5.0.1
+
+Make packages compatible for use with pacman
+
+Usage: /usr/bin/makepkg [options]
 
 Options:
 .......
@@ -241,7 +241,7 @@ C10 (pc10)  0.0%    |                     | C10-BDW    80.8%  123.2 ms
 Well that's unfortunate, though at least the microcode on this is updated to the newest version. Going back to the article about bad power management under linux for Skylake processors, there was a mention about the SATA peripheral preventing the package from dropping into a lower power state. In that case, checking out the Tunables tab of powertop reveals the following:
 
 ```bash
->> Bad           NMI watchdog should be turned off                                                                      
+>> Bad           NMI watchdog should be turned off
    Bad           VM writeback timeout
    Bad           Enable SATA link power management for host0
    Bad           Enable SATA link power management for host1
