@@ -1,0 +1,10 @@
+# Site settings
+title: Toshiba Chromebook 2 powersavings
+tag_text: Toshiba Chromebook 2 powersavings
+description: An attempt and decreasing power consumption for the Toshiba chromebook 2.
+
+# Build settings
+markdown: kramdown
+exclude: ["README.md"]
+sass:
+  style: compressed
